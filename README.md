@@ -29,8 +29,8 @@ as the destination, then run the `ScreensBackSwipeRepro` scheme in Debug.
    with the second swipe starting while the first transition is settling.
 
 Expected result is Home. If Previous appears, the second swipe dismissed the
-route whose back gesture was disabled. The standalone reproduction is awaiting
-verification on a physical iPhone.
+route whose back gesture was disabled. Verified on a physical iPhone.
+[Upstream report #5281](https://github.com/software-mansion/react-native-screens/issues/5281)
 
 The native scaffold comes from the React Native Community template.
 [Template license](LICENSE.react-native-template)
